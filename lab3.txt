@@ -1,0 +1,50 @@
+
+1.Palendrome metod yazin -eger palendrom ededdirse bize bildiris cixardir(meselen 121-palendrom,123-deyil
+
+2.Extension method yaziriq, bir string qəbul edir,birde int gelir,
+verilen eded tekdirse geriye sözü qaytarır, cütdürsə sözə 's əlaye edir qaytarir. 
+
+
+Task 3
+
+Asagidaki memberlerden ibaret Student class-i yaradirsiniz
+Name
+Surname
+GroupNo
+Score
+
+Asagidaki parameterlerden ibaret Group class-i yaradirsiniz:
+
+No - Group nomresini ifade edir
+Limit - Group-da ola bilecek maximum telebe sayini ifade edir
+Students - Group-unicerisindeki telebeleri ifade edir (Student typda array)
+
+CalcScoreAverage() - groupdaki students qiymet ortalamasini qaytaran method
+
+
+Asagidaki metodlari olan IGroupManager interface yaradirsiniz:
+
+AddStudent() - metod prameter olaraq Student typinda obyekt qebul edir ve 
+onu eger groupda yer varsa groupun students arrayine elave edir
+
+GetStudnets() - bu metod studentler siyahisini geriye qaytarir
+
+
+SearchStudent(stiring search) - bu metod adinda gonderilmsis string deyeri olan 
+students siyahisini geriye qaytarir
+
+EditStudent() - deyisikkik edilecek student adi daxil edilir,
+o adda isci yoxdursa xeta mesaji verir.
+Studentin adi ve scoru editlenir
+
+RemoveStudent() - bu metod parameter oalraq silmek istediyimiz student adini qebul edir,
+hemin adda student array-den silinmelidir 
+
+Group classina IGroupManager-i implement edirsiniz:
+
+
+
+ps: Group obyekti uzerinde Studnetlere birbasa value set oluna bilinmemelidir,
+yalnizca AddStudent metodu ile group obyekti icindeki Students arrayine deyer elave etmek mumkundur
+
+
